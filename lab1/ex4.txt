@@ -1,0 +1,9 @@
+Analysis
+1. What is the difference between true state and observation?
+    The true state is the clean, real signal, while the observation is the same signal but “corrupted” by noise.
+2. How does the estimation reduce the noise?
+    By taking an average over multiple points, random fluctuations get smoothed out, so the estimate looks closer to the real underlying signal.
+3. How does changing the noise level affect estimation?
+    If the measurements get noisier, the estimator has a harder job and you need stronger smoothing; if measurements are cleaner, the estimate naturally improves.
+4. How does the window size affect the result?
+    A small window reacts fast but doesn’t smooth much; a large window smooths well but responds slowly and can delay the signal.
