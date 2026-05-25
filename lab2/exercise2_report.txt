@@ -1,0 +1,20 @@
+EXERCISE 2 REPORT - CHAOS IN THE LOGISTIC MAP
+=============================================
+
+Equation used:
+x(n+1) = r * x(n) * (1 - x(n))
+
+Conclusion:
+The population growth becomes chaotic at approximately r = 3.57.
+A more precise value for the onset of chaos is r = 3.56995.
+
+Explanation:
+For small values of r, the population goes to a stable value.
+When r increases, the system begins to oscillate between 2 values,
+then 4 values, then 8 values, and so on.
+After about r = 3.57, the behavior becomes chaotic.
+This means the population no longer settles into a simple repeating pattern.
+
+Saved images:
+- chaos_example_r357.png
+- bifurcation_diagram.png

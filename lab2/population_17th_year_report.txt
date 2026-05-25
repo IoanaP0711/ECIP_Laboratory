@@ -1,0 +1,26 @@
+POPULATION GROWTH OVER 17 YEARS
+================================
+
+Initial population x0 = 0.5
+r values = [2, 2.5, 1, 1.2, 3.1, 0.5, 4, 4.4, 3, 2.9, 2.8, 1.9, 1.5, 1.4, 7, 3.8, 8]
+
+Year 1: population = 0.5
+Year 2: population = 0.625
+Year 3: population = 0.234375
+Year 4: population = 0.21533203125
+Year 5: population = 0.523788857460022
+Year 6: population = 0.12471704513037338
+Year 7: population = 0.43665081513728715
+Year 8: population = 1.0823422754198113
+Year 9: population = -0.2673675772233702
+Year 10: population = -0.9826736958636284
+Year 11: population = -5.455299607536552
+Year 12: population = -66.90962748949751
+Year 13: population = -6815.711817409228
+Year 14: population = -65045040.6057049
+Year 15: population = -2.9616001607099884e+16
+Year 16: population = -3.333008694528623e+33
+Year 17: population = -8.887157566242717e+67
+
+Final answer:
+The population in the 17th year is: -8.887157566242717e+67

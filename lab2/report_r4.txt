@@ -1,0 +1,137 @@
+REPORT: POPULATION EXPERIMENTS FOR r = 4
+========================================
+
+Logistic equation used:
+x(n+1) = r * x(n) * (1 - x(n))
+
+Growth factor: r = 4
+Initial populations tested: [0.1, 0.5, 0.9]
+Number of steps: 30
+
+Experiment for initial population x0 = 0.1
+----------------------------------------
+Step 0: 0.1
+Step 1: 0.36000000000000004
+Step 2: 0.9216
+Step 3: 0.28901376000000006
+Step 4: 0.8219392261226498
+Step 5: 0.5854205387341974
+Step 6: 0.970813326249438
+Step 7: 0.11333924730376121
+Step 8: 0.4019738492975123
+Step 9: 0.9615634951138128
+Step 10: 0.1478365599132853
+Step 11: 0.5039236458651636
+Step 12: 0.9999384200124991
+Step 13: 0.0002463047816241282
+Step 14: 0.0009849764623147091
+Step 15: 0.00393602513473358
+Step 16: 0.015682131363489303
+Step 17: 0.061744808477550275
+Step 18: 0.23172954841448365
+Step 19: 0.7121238592244125
+Step 20: 0.8200138733909665
+Step 21: 0.5903644833492417
+Step 22: 0.9673370405960985
+Step 23: 0.1263843619475224
+Step 24: 0.4416454200105602
+Step 25: 0.9863789719770243
+Step 26: 0.05374198247429209
+Step 27: 0.2034151271760999
+Step 28: 0.6481496528481241
+Step 29: 0.9122067214439212
+Step 30: 0.3203424751858141
+
+Experiment for initial population x0 = 0.5
+----------------------------------------
+Step 0: 0.5
+Step 1: 1.0
+Step 2: 0.0
+Step 3: 0.0
+Step 4: 0.0
+Step 5: 0.0
+Step 6: 0.0
+Step 7: 0.0
+Step 8: 0.0
+Step 9: 0.0
+Step 10: 0.0
+Step 11: 0.0
+Step 12: 0.0
+Step 13: 0.0
+Step 14: 0.0
+Step 15: 0.0
+Step 16: 0.0
+Step 17: 0.0
+Step 18: 0.0
+Step 19: 0.0
+Step 20: 0.0
+Step 21: 0.0
+Step 22: 0.0
+Step 23: 0.0
+Step 24: 0.0
+Step 25: 0.0
+Step 26: 0.0
+Step 27: 0.0
+Step 28: 0.0
+Step 29: 0.0
+Step 30: 0.0
+
+Experiment for initial population x0 = 0.9
+----------------------------------------
+Step 0: 0.9
+Step 1: 0.35999999999999993
+Step 2: 0.9216
+Step 3: 0.28901376000000006
+Step 4: 0.8219392261226498
+Step 5: 0.5854205387341974
+Step 6: 0.970813326249438
+Step 7: 0.11333924730376121
+Step 8: 0.4019738492975123
+Step 9: 0.9615634951138128
+Step 10: 0.1478365599132853
+Step 11: 0.5039236458651636
+Step 12: 0.9999384200124991
+Step 13: 0.0002463047816241282
+Step 14: 0.0009849764623147091
+Step 15: 0.00393602513473358
+Step 16: 0.015682131363489303
+Step 17: 0.061744808477550275
+Step 18: 0.23172954841448365
+Step 19: 0.7121238592244125
+Step 20: 0.8200138733909665
+Step 21: 0.5903644833492417
+Step 22: 0.9673370405960985
+Step 23: 0.1263843619475224
+Step 24: 0.4416454200105602
+Step 25: 0.9863789719770243
+Step 26: 0.05374198247429209
+Step 27: 0.2034151271760999
+Step 28: 0.6481496528481241
+Step 29: 0.9122067214439212
+Step 30: 0.3203424751858141
+
+OBSERVATIONS
+------------
+For r = 4, the logistic model is in the chaotic region.
+This means the population does not settle to a single stable value.
+It also does not follow a simple repeating pattern for most starting values.
+
+a) For x0 = 0.1:
+The population changes strongly from one step to another.
+The values remain between 0 and 1, but the evolution looks irregular.
+
+b) For x0 = 0.5:
+The first iteration gives exactly 1.0.
+After that, the next value becomes 0.0, and then it remains 0.0.
+So this starting value leads very quickly to extinction.
+
+c) For x0 = 0.9:
+The behavior is similar to x0 = 0.1 because the logistic formula is symmetric.
+The population again shows irregular oscillations.
+
+GENERAL CONCLUSION
+------------------
+For r = 4, the system is extremely sensitive to the initial value.
+Small changes in the starting population can produce very different results.
+This is a characteristic of chaotic behavior.
+The special case x0 = 0.5 leads to collapse to 0.

@@ -1,0 +1,64 @@
+LOGISTIC POPULATION GROWTH REPORT
+========================================
+
+Growth factor r = 9
+Initial population x0 = 0.2
+Number of steps = 50
+
+Population values:
+Step 0: 0.2
+Step 1: 1.4400000000000002
+Step 2: -5.702400000000003
+Step 3: -343.9778918400003
+Step 4: -1067982.9116987786
+Step 5: -10265297108971.617
+Step 6: -9.483869226192418e+26
+Step 7: -8.094939794956762e+54
+Step 8: -5.897524525557716e+110
+Step 9: -3.130271597659928e+222
+Step 10: -inf
+Step 11: -inf
+Step 12: -inf
+Step 13: -inf
+Step 14: -inf
+Step 15: -inf
+Step 16: -inf
+Step 17: -inf
+Step 18: -inf
+Step 19: -inf
+Step 20: -inf
+Step 21: -inf
+Step 22: -inf
+Step 23: -inf
+Step 24: -inf
+Step 25: -inf
+Step 26: -inf
+Step 27: -inf
+Step 28: -inf
+Step 29: -inf
+Step 30: -inf
+Step 31: -inf
+Step 32: -inf
+Step 33: -inf
+Step 34: -inf
+Step 35: -inf
+Step 36: -inf
+Step 37: -inf
+Step 38: -inf
+Step 39: -inf
+Step 40: -inf
+Step 41: -inf
+Step 42: -inf
+Step 43: -inf
+Step 44: -inf
+Step 45: -inf
+Step 46: -inf
+Step 47: -inf
+Step 48: -inf
+Step 49: -inf
+Step 50: -inf
+
+Interpretation:
+For r > 4, the logistic equation no longer gives a realistic population model.
+The values usually leave the interval [0, 1], so the result becomes unstable
+and has no physical meaning for normalized population growth.
